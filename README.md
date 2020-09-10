@@ -1,21 +1,20 @@
 # Libvips
 
-**TODO: Add description**
+Elixir bindings for libvips. Open an issue if you want to use it
 
 ## Installation
-
-If [available in Hex](https://hex.pm/docs/publish), the package can be installed
-by adding `libvips` to your list of dependencies in `mix.exs`:
 
 ```elixir
 def deps do
   [
-    {:libvips, "~> 0.1.0"}
+    {:libvips, github: "hissssst/libvips"}
   ]
 end
 ```
 
-Documentation can be generated with [ExDoc](https://github.com/elixir-lang/ex_doc)
-and published on [HexDocs](https://hexdocs.pm). Once published, the docs can
-be found at [https://hexdocs.pm/libvips](https://hexdocs.pm/libvips).
+## Configuration
 
+```elixir
+config :libvips, vips_executable: "path/to/vips"
+config :libvips, vipsheader_executable: "path/to/vipsheader"
+```
