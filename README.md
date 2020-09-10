@@ -1,6 +1,6 @@
 # Libvips
 
-Elixir bindings for libvips. Open an issue if you want to use it
+Elixir wrapper for libvips. Open an issue if you want to use it
 
 ## Installation
 
